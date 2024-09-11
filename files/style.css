@@ -1,0 +1,313 @@
+body {
+		/*font-family: "Times New Roman", Times, serif;*/
+}
+
+.avantitul {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+.avantitul p {
+	text-align:center;
+	text-indent: 0px;
+	margin-top: 1em;
+}
+
+.titul {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.titul .head1 {
+	font-size:160%;
+
+}
+
+.titul .head2 {
+	font-size:140%;
+}
+
+.titul p {
+	text-align: center;
+	text-indent: 0px;
+	margin-top: 1em;
+}
+
+.titul p.sm {
+	font-size: 0.9em;
+}
+
+span.border {
+	border:1px solid #333;
+	padding:0 2px;
+	text-indent: 0px;
+}
+
+div.center {
+	text-align:center;
+	margin-top:20%;
+	text-indent: 0px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: normal;
+	text-align: center;
+    page-break-after: avoid;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+.forword p {
+	font-family: "Times New Roman", Times, serif;
+	text-align:justify;
+	padding:0;
+	margin:0;
+	text-indent: 1.5em;
+}
+
+.forword h1,
+.forword h2 {
+	font-family: "Times New Roman", Times, serif;
+    page-break-after: avoid;
+}
+
+.forword table
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.tolstoi p {
+	font-family: "Times New Roman", Times, serif;
+	text-align:justify;
+	padding:0;
+	margin:0;
+	text-indent: 1.5em;
+	font-size:110%;
+}
+
+.tolstoi h1,
+.tolstoi h2,
+.tolstoi h3,
+.tolstoi h4,
+.tolstoi h5
+{
+	font-family: "Times New Roman", Times, serif;
+    page-break-after: avoid;
+}
+
+.footnote {
+	font-family: "Times New Roman", Times, serif;
+	margin: 1em 0px;
+}
+
+.footnotesnum {
+    text-align: center;
+	font-size: 1.8em;
+	margin-bottom: 0.5em;
+    text-indent: 0px;
+}
+
+
+p {
+    margin: 0px;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+table {
+		font-family: "Times New Roman", Times, serif;
+        font-size: 1em;
+        margin: 0px;
+        border-collapse: collapse;
+        border: none;
+		width: 100%;
+}
+tr {
+        border: none;
+}
+td {
+        border: none;
+        padding: 0px 1em 0px 0px;
+		valign: top;
+}
+th {
+        text-align: center;
+        border: none;
+        background-color: #CEE;
+        padding: 0.3em;
+}
+
+.snoska {
+	vertical-align: super;
+	font-size:70%;
+}
+
+.textsnoski {
+	margin-left: 40px;
+}
+
+.persona {
+  	letter-spacing: 0.3em;
+}
+.replica {
+  	letter-spacing: 0.3em;
+	text-align: center;
+}
+
+.unicode {
+	font-family: "Lucida Sans Unicode";
+}
+p.subtitle {
+    text-indent: 0px;
+    text-align: center;
+	margin-bottom: 0.5em;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+
+p.center {
+	text-align:center;
+    text-indent: 0px;
+}
+
+.right {
+	text-align:right;
+}
+
+.left {
+	text-align:left;
+}
+
+.nbold {
+	font-weight: normal;
+}
+
+.sm {
+	font-size: 0.9em;
+}
+
+.vsm {
+	font-size: 0.7em;
+}
+
+.padding {
+	padding-top: 1em;
+}
+
+p.margin {
+	margin: 0.5em 0px 0.5em 0px;
+}
+
+p.margintbl {
+	margin: 0px 1.5em 0px 1.5em;
+}
+
+p.podpis {
+	margin-left:50%;
+}
+
+body > p {
+	/*font-family: Inter, sans-serif;*/
+	/*font-feature-settings: 'liga' 1, 'calt' 1; !* fix for Chrome *!*/
+
+	font-family: "PT Serif Caption", serif;
+}
+
+@supports (font-variation-settings: normal) {
+	body > p {
+		/*font-family: InterVariable, sans-serif;*/
+		font-family: "PT Serif Caption", serif;
+		/*font-family: "Alice", system-ui;*/
+		/*font-weight: 400;*/
+		/*font-style: normal;*/
+
+		/*font-family: "Cormorant Garamond", serif;*/
+		/*font-weight: 300;*/
+
+		font-size: large;
+		/*font-size: x-large;*/
+	}
+}
+
+p.epigraph {
+	font-size: 0.9em;
+	margin-left:35%;
+	margin-bottom: 0.5em;
+	text-indent: 1.5em;
+}
+p.poem {
+	margin-left:35%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-indent: 0px;
+}
+
+p.text-author {
+	font-size: 0.9em;
+    text-indent: 0px;
+	text-align:right;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+
+img {
+        /*display:block;*/
+        text-align: center;
+        padding: 3px;
+}
+
+img.image {
+	max-width: 90%;	
+}
+
+.image {
+	text-align: center;
+	margin: 0px auto 1em auto;
+	page-break-inside: avoid;
+	display: block;	
+	width: 90%;	
+	page-break-inside: avoid;
+}
+
+.imagesmall {
+	text-align: center;
+	margin: 0px auto 1em auto;
+	page-break-inside: avoid;
+	display: block;	
+	width: 30%;	
+	page-break-inside: avoid;
+}
+
+
+.coverimages {
+		height: 100%;
+}
+
+a {
+        line-height: 0.1;
+        vertical-align: super;
+        font-size: 0.7em;
+}
+a.loi {
+        vertical-align: baseline;
+        line-height: normal;
+        font-size: 1em;
+}
+sub {
+        line-height: 0.1;
+        font-size: 0.7em;
+}
+sup {
+        line-height: 0.1;
+        font-size: 0.7em;
+}
